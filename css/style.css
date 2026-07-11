@@ -54,7 +54,7 @@ body {
 .btn-color:hover {
     background-color: #1E40AF;
 }
-/* Navbar design */
+/* Navbar design here*/
 
 .nav-container {
   display: flex;
@@ -76,11 +76,11 @@ body {
     color: #1D4ED8;
 }
 
-/* Hero Section */
+/* Hero Section style*/
 
 .hero {
   background-image:
-    linear-gradient(rgba(4, 6, 7, 0.6), rgba(4, 6, 7, 0.6)),
+    linear-gradient(rgba(4, 6, 7, 0.6)),
     url("../assets/banner.jpg");
 
   background-size: cover;
@@ -207,7 +207,7 @@ body {
   font-size: 45px;
 }
 
-/* Conference Experience */
+/* Conference Experience design*/
 
 .experience-section{
     display:flex;
@@ -256,7 +256,7 @@ body {
     line-height:1.6;
 }
 
-/* Footer */
+/* Footer design*/
 
 footer{
     background-color:#0D1B2A;
