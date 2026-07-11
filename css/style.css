@@ -1,0 +1,311 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* universal selection */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common css design*/
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.h5-style{
+  color: #1d4ed8;
+}
+.p-style{
+  color: #575757;
+  padding: 15px 5px;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-color {
+  color: #575757;
+}
+
+.btn-color {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-outline{
+  border: 1px solid #1d4ed8;
+  color: #1D4ED8;
+  padding: 12px 20px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-color:hover {
+    background-color: #1E40AF;
+}
+/* Navbar design */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #575757;
+}
+.nav-items a:hover {
+    color: #1D4ED8;
+}
+
+/* Hero Section */
+
+.hero {
+  background-image:
+    linear-gradient(rgba(4, 6, 7, 0.6), rgba(4, 6, 7, 0.6)),
+    url("../assets/banner.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 786px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-text h1 {
+  color: white;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  color: white;
+  max-width: 650px;
+  margin-bottom: 300px;
+}
+
+
+/* main section design */
+.container h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 25px;
+}
+.card-parent{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  padding-bottom: 20px;
+   border-radius: 8px;
+  height: 100%;
+  overflow: hidden;
+}
+.cards img{
+  width: 100%;
+}
+.cards h5,
+.cards h3,
+.cards p{
+  padding: 0 12px;
+}
+
+
+/* offer cards design */
+
+.offer-cards-parent{
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 24px;
+  align-content: center;
+  justify-content: center;
+}
+.card-items{
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+  height: 100%;
+  border-radius: 8px;
+}
+.card-items ul{
+  padding: 20px;
+}
+.card-items ul li{
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+
+.center-text{
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 25px;
+  color: #575757;
+}
+.card-items button{
+  width: 100%;
+
+}
+.card-items button:hover{
+  background-color: #1D4ED8;
+  color: white;
+
+}
+.pro-card{
+  background-color: #0D1B2A;
+  color: white;
+}
+.pro-card button:hover{
+  border: 1px solid #1d4ed8;
+  color: #1D4ED8;
+  padding: 12px 20px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-outline-gray{
+  border: 1px solid #575757 !important;
+}
+.header-card-parts h1{
+  font-size: 50px;
+}
+.card-items h2{
+  font-size: 45px;
+}
+
+/* Conference Experience */
+
+.experience-section{
+    display:flex;
+    align-items:center;
+    gap:60px;
+    padding:80px 20px;
+}
+
+.experience-image{
+    flex:1;
+}
+
+.experience-image img{
+    width:100%;
+    border-radius:10px;
+}
+
+.experience-content{
+    flex:1;
+}
+
+.experience-content h2{
+    font-size:46px;
+    margin-bottom:20px;
+}
+
+.experience-content > p{
+    color:#575757;
+    line-height:1.7;
+    margin-bottom:30px;
+}
+
+.experience-list{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    margin-bottom:40px;
+}
+
+.experience-list h4{
+    margin-bottom:8px;
+}
+
+.experience-list p{
+    color:#575757;
+    line-height:1.6;
+}
+
+/* Footer */
+
+footer{
+    background-color:#0D1B2A;
+    margin-top:80px;
+}
+
+.footer-section{
+    padding:40px 20px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+.footer-logo{
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer-social{
+    display:flex;
+    gap:20px;
+}
+.footer-social i{
+  color: white;
+}
+.footer-social .fa-facebook:hover{
+  color: #1D4ED8;
+}
+.footer-social .fa-twitter:hover{
+  color: #1da3d8;
+}
+.footer-social .fa-linkedin:hover{
+  color: #1D4ED8;
+}
+.footer-social .fa-github:hover{
+  color: #415486;
+}
+
+
+
+.footer-section hr{
+    border:none;
+    border-top:1px solid #D1D5DB;
+}
+
+.footer-text{
+    text-align:left;
+    color:#575757;
+    margin-top:20px;
+    font-size:15px;
+}
